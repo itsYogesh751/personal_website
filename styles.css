@@ -85,5 +85,27 @@ form button{
     padding:10px 30px;
     background-color: aqua;
     margin-top: 20px;
+}
+#msg{
+    height: 60px;
+    width:200px;
+}
+@media screen and (max-width: 900px){
+    form{
+    border:3px solid black;
+    padding: 2%;
+    margin-left: 0px;
+    width:90%;
+}
+form button{
+   padding:10px 30px;
+   background-color: aqua;
+   margin-top: 20px;
+   
+}
+#education table{
+    display: inline-block;
+    width:500px;
+}
 
 }
